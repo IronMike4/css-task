@@ -1,0 +1,388 @@
+<!-- This is the index.html fo Michael Mahachi's CV
+For more information about the CV, visit https://github.com/IronMike4/css-task.git -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Michael Mahachi" />
+    <meta
+      name="description"
+      content="This page contains the Curriculum Vitae for Michael Mahachi"
+    />
+    <title>Michael Mahachi's Curriculum Vitae</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <!-- Mobile Navigation -->
+  <body>
+    <div class="site-main-wrapper">
+      <button class="hamburger">
+        <img src="./images/hamburger.svg" alt="" />
+      </button>
+
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">Bio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Header Start -->
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+               <a href="#main-nav"><img src="./images/mike-logo.png" alt="" /></a>
+              </div>
+              <div>
+                <a href="#profile">Profile</a>
+                <a href="#about">Bio</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <div class="right">
+                <a href="tel:+2784666805"><button class="btn btn-primary">Contact</button></a>
+            </div>
+          </nav>
+
+          <!-- Profile Start -->
+          <section id="profile">
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="./images/mike-profile.jpeg" alt="" />
+            </div>
+            <div class="right flex-1">
+              <h6>Michael Mahachi</h6>
+              <h1>I’m a Software<span> Quality Engineer</span></h1>
+              <p>
+                A dedicated IT professional with a passion for web development, currently pursuing studies to become a Fullstack Web Developer.
+              </p>
+              <div>
+                <button class="btn btn-secondary">DOWNLOAD CV</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Profile End -->
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Bio/About Start -->
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img class="about-me-img" src="./images/mike-bio.jpeg" alt="" />
+          </div>
+          <div class="flex-1 right">
+            <h1>My <span>Bio</span></h1>
+            <h3>Hello! I’m Michael Mahachi.</h3>
+            <p>
+                I am a dedicated QA Engineer with a specialization in automation. With a
+                keen eye for detail and a passion for quality assurance, I thrive in
+                creating robust automated testing frameworks that ensure the reliability
+                and functionality of software systems. My expertise lies in designing,
+                implementing, and maintaining automated test suites to streamline the
+                testing process and enhance overall product quality. Committed to
+                continuous improvement, I stay abreast of the latest tools and
+                methodologies in automation to drive efficiency and excellence in
+                software testing.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Bio/About End -->
+
+      <!-- Skills Start -->
+      <section id="skills" class="skills">
+        <h1>My <span>Skills</span></h1>
+    
+        <div class="skills-container">
+            <div class="soft-skills">
+                <h2>Soft <span>Skills</span></h2>
+                <ul>
+                    <li><h3>dot-net</h3><span class="bar"><span class="dot-net"></span></span></li>
+                    <li><h3>java</h3><span class="bar"><span class="java"></span></span></li>
+                    <li><h3>python</h3><span class="bar"><span class="python"></span></span></li>
+                    <li><h3>typescript</h3><span class="bar"><span class="typescript"></span></span></li>
+                </ul>
+            </div>
+            <div class="hard-skills">
+                <h2>Hard <span>Skills</span></h2>
+                <ul>
+                    <li><h3>teamwork</h3><span class="bar"><span class="teamwork"></span></span></li>
+                    <li><h3>communication</h3><span class="bar"><span class="communication"></span></span></li>
+                    <li><h3>problem-solving</h3><span class="bar"><span class="problem-solving"></span></span></li>
+                    <li><h3>analytical</h3><span class="bar"><span class="analytical"></span></span></li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <!-- Skills End -->
+
+      <!-- Experience Start -->
+      <section id="experience" class="experience">
+        <div class="education">
+            <div class="experience-container">
+                <h2>Education</h2>
+                <div class="contents">
+                    <h4>Jan 2017 - Dec 2019</h4>
+                    <h3>Bachelor of Commerce in Business Informatics - <a href="https://www.unisa.ac.za/">UNISA</a></h3>
+                    <p>The curriculum covered essential topics such as:</p>
+            <ul>
+                <li>Database management</li>
+                <li>Software development</li>
+                <li>Network administration</li>
+                <li>Cybersecurity</li>
+                <li>Business analysis</li>
+            </ul>
+                </div>
+                <div class="contents">
+                    <h4>May 2020 - August 2020</h4>
+                    <h3>ISTQB Foundation Level - <a href="https://sastqb.org.za/">SASTQB</a></h3>
+                    <p>
+                        <ul>
+                            <li>
+                                The ISTQB Certified Tester Foundation Level (CTFL) certification is the cornerstone of essential testing knowledge that can be applied to real-world scenarios. The syllabus provides a comprehensive understanding of the terminology and concepts used in the testing domain worldwide, making it relevant for all software delivery approaches and practices, including Waterfall, Agile, DevOps, and Continuous Delivery. CTFL certification is recognized as a prerequisite to all other ISTQB® certifications where Foundation Level is required.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="contents">
+                    <h4>Jan 2007 - February 2008</h4>
+                    <h3>Applied Diploma in Information Technology(Networking) - <a href="https://www.niit.com/south-africa/"> NIIT</a></h3>
+                    <p>
+                       <ul>
+                        <li>
+                            Business management
+                            Web design and development
+                            Introduction to Databases
+                            Introduction to Programming
+                            Network Technical Skills
+                            Software Project management
+                            Database design and development
+                        </li>
+                       </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="work-experience">
+            <h2>Experience</h2>
+            <div class="experience-container">
+                <div class="contents">
+                    <h4> Jan 2023 - Present</h4>
+                    <h3>QA Engineer - <a href="https://www.gviafrica.co.za/">GVI</a></h3>
+                    <p><ul>
+                        <li>
+                            Performing both automated and manual testing of websites and APIs.
+                        </li>
+                        <li>
+                            Testing sign off on user stories, defect corrections and production
+                            releases.
+                        </li>
+                        <li>
+                            Identifying software defects and managing their lifecycle to ensure
+                            quality assurance.
+                        </li>
+                        <li>
+                            Driving test strategy and automation to maintain efficient processes
+                            and workflows.
+                        </li>
+                        <li>
+                            Collaborating to define, document, improve and automate processes for
+                            increased efficiency.
+                        </li>
+                        <li>
+                            Developing and refining test and QA strategies tailored to our
+                            products and services.
+                        </li>
+                        <li>
+                            Creating, adjusting, and maintaining automated/manual test cases and
+                            test plans.
+                        </li>
+                        <li>
+                            Verifying lead creation accuracy in the database and Salesforce for
+                            seamless integration.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="contents">
+                    <h4> August 2021 - Dec 2022</h4>
+                    <h3>Software Development Engineer in Test - <a href="https://www.derivco.com/">Derivco</a></h3>
+                    <p> <ul>
+                        <li>
+                            Establishing functional test scenarios for validating the proper
+                            functioning of software product components.
+                        </li>
+                        <li>
+                            Creating and managing automated functional, unit (T1), and integration
+                            (T2) tests, along with necessary tools and materials, to back the test
+                            suite and guarantee comprehensive test coverage for designated test
+                            scenarios of a product.
+                        </li>
+                        <li>
+                            Managing automated fundamental non-functional tests for the products.
+                        </li>
+                        <li>
+                            Recognizing deficient quality checks and scenarios to enhance overall
+                            software quality through manual exploratory testing, assessment of
+                            automated functional test outcomes, test coverage, and their
+                            performance. Monitoring and conveying automated test results
+                            associated with a software product component promptly and efficiently,
+                            adhering to compliance and approval requirements.
+                        </li>
+                        <li>
+                            Participating in code reviews to enhance test automation skills and
+                            gain knowledge about team practices and software products.
+                        </li>
+                        <li>
+                            Setting up automated tests for execution within CI/CD pipelines and
+                            troubleshooting problems to consistently and effectively test software
+                            releases.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="contents">
+                    <h4> November 2020 - July 2022</h4>
+                    <h3>Software Quality Engineer -  <a href="https://skrmiish.gg/">Skrmiish</a></h3>
+                    <p>
+                        <ul>
+                            <li>Testing Mobile, Desktop and Web Apps</li>
+                            <li>API Testing</li>
+                            <li>Creating and providing input for Test Plans.</li>
+                            <li>Keeping within estimated time frames.</li>
+                            <li>Designing Test Cases.</li>
+                            <li>Ensuring the test environment is setup and maintained.</li>
+                            <li>
+                                Creating Test Scenarios based on the acceptance criteria in sprint
+                                stories.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- Experience End -->
+
+      <!-- Contact Start -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact <span>Me</span></h1>
+          <p>
+            Please feel free to contact me for any job opportunities or freelance work.
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+                <a href="tel:+2784666805">
+                    <img src="./images/phone-icon.png" alt="" />
+                </a>
+              <h1>Call Me On</h1>
+              <h6>+278 4666 805</h6>
+            </div>
+            <div class="card">
+                <a href="mailto:exampack1@gmail.com">
+                    <img src="./images/email-icon.png" alt="" />
+                </a>
+              <h1>Email Me At</h1>
+              <h6>exampack1@gmail.com</h6>
+            </div>
+            <div class="card">
+                <a href="https://www.google.com/maps/place/1+Frere+Road,+Maitland,+Cape+Town+South+Africa">
+                    <img src="./images/home-icon.png" alt="" />
+                </a>
+              <h1>Visit Me</h1>
+              <h6>1 Frere Road, Maitland Cape Town South Africa</h6>
+            </div>
+          </div>
+
+          <form action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name *" autocomplete="on"
+              required autofocus/>
+              <input type="email" placeholder="Your Email *" required/>
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject..." />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message..."
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary" >Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Contact End -->
+
+      <!-- Footer Start -->
+      <footer>
+        <a href="#profile">
+        <img class="footer-logo" src="./images/mike-logo.png" alt="" /></a>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/ironmike.mahachi"
+            ><img src="./images/facebook-icon.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/michael-mahachi-a9978415a/">
+            <img src="./images/linkedIn-icon.png" alt=""
+          /></a>
+          <a href="https://github.com/IronMike4">
+            <img src="./images/github-icon.png" alt=""
+          /></a>
+        </div>
+        <div class="copyright">Copyright 2024 © Michael Mahachi</div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+
+    <!-- Scripts Start -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+    <!-- Scripts End -->
+  </body>
+</html>
